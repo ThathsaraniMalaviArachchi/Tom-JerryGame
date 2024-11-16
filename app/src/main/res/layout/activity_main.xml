@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4232323"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Score TextView -->
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#F4EFEF"
+        android:backgroundTint="#F6F1F1"
+        android:text="@string/score_0"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#0B0A0A"
+        android:gravity="center"
+        android:text="@string/start" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="88dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/rjerry"
+        android:layout_marginTop="-90dp"
+        android:layout_marginRight="120dp"/>
+
+</LinearLayout>
